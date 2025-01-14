@@ -1,10 +1,18 @@
+import { Box, Container, Stack, Typography } from '@mui/material';
 import React from 'react';
 
 const Navbar = () => {
     return (
-        <div>
-            <h1>nabbar</h1>
-        </div>
+        <Container>
+            <Stack py={2} direction=
+                'row' justifyContent="space-between"
+            >
+                <Typography variant="h4" align="center"
+                    component='h1' fontWeight={600}>
+                    P<Box color="primary.main" component="span">H</Box>ealth Care
+                </Typography>
+            </Stack>
+        </Container>
     );
 };
 
