@@ -1,6 +1,5 @@
 "use client"
 
-
 import { ReactNode } from "react";
 import { theme } from "../Theme/Theme";
 import { ThemeProvider } from "@mui/material";

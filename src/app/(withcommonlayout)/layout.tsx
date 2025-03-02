@@ -1,12 +1,15 @@
+import Footer from '@/components/shared/Footer/Footer';
 import Navbar from '@/components/shared/Navabar/Navbar';
-import React, { Fragment, ReactNode } from 'react';
+import { Box } from '@mui/material';
+import React, { ReactNode } from 'react';
 
 const Commonlayout = ({ children }: { children: ReactNode }) => {
     return (
-        <Fragment>
+        <Box>
             <Navbar />
             {children}
-        </Fragment>
+            <Footer />
+        </Box>
     );
 };
 
