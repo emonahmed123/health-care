@@ -61,7 +61,7 @@ const HeroSeciton = () => {
             }}>
                 <Box
                     sx={{
-                        display: "flex",
+                        display: "flex  ",
                         gap: 2,
                     }}
                 >
